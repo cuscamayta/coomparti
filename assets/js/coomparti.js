@@ -1,4 +1,4 @@
-$('#clock-countdown').countdown('2018/04/31 12:00:00').on('update.countdown', function (event) {
+$('#clock-countdown').countdown('2019/09/29 12:00:00').on('update.countdown', function (event) {
     var $this = $(this).html(event.strftime(''
         + '<div class="counter-container"><div class="counter-box first"><div class="number">%-D</div><span>Dia%!d</span></div>'
         + '<div class="counter-box"><div class="number">%H</div><span>Horas</span></div>'
